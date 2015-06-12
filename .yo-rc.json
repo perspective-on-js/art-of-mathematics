@@ -1,0 +1,11 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Art of Mathematics",
+    "packageVersion": "1.0.0",
+    "revealTheme": "night",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "perspective-on-js",
+    "githubRepository": "art-of-mathematics"
+  }
+}
