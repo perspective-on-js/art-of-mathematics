@@ -1,1 +1,10 @@
-["index.md"]
+[
+    {
+        "attr": {
+            "data-background": "image/first-abstract-watercolor.jpg"
+        }
+    },
+    {
+        "filename": "index.html"
+    }
+]
