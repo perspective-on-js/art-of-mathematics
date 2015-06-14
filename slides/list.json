@@ -6,5 +6,11 @@
     },
     {
         "filename": "index.html"
+    },
+    {
+        "filename": "rubin-vase.md",
+        "attr": {
+            "data-background": "image/rubin-vase.png"
+        }
     }
 ]
