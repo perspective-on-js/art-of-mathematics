@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Tangerine:700);
 
+.frameless.illustration {
+    border: none;
+}
+
 .title.text {
     font-family: 'Tangerine', cursive;
     color: gold;
