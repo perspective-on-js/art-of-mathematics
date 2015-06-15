@@ -17,5 +17,10 @@
         "attr": {
             "data-background": "image/swim-contest.jpg"
         }
+    },
+    {
+        "attr": {
+            "data-background": "image/f1-race.jpg"
+        }
     }
 ]
