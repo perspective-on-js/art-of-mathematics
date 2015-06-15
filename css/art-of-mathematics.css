@@ -5,13 +5,20 @@
     background-color: black;
 }
 
+.title.text {
+    font-family: 'Tangerine', cursive;
+    color: gold;
+}
+
 .frameless.illustration {
     border: none;
 }
 
-.title.text {
-    font-family: 'Tangerine', cursive;
-    color: gold;
+.reveal blockquote {
+    background: none;
+    box-shadow: none;
+    font-size: 150%;
+    width: 90%;
 }
 
 .wave {

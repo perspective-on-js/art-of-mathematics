@@ -15,12 +15,18 @@
     },
     {
         "attr": {
-            "data-background": "image/swim-contest.jpg"
+            "data-background": "image/f1-race.jpg"
         }
     },
     {
         "attr": {
-            "data-background": "image/f1-race.jpg"
+            "data-background": "image/swim-contest.jpg"
+        }
+    },
+    {
+        "filename": "study-mathemathics.md",
+        "attr": {
+            "data-background": "image/swim-contest.jpg"
         }
     }
 ]
