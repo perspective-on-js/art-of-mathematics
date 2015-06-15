@@ -12,5 +12,10 @@
     },
     {
         "filename": "rubin-vase.md"
+    },
+    {
+        "attr": {
+            "data-background": "image/swim-contest.jpg"
+        }
     }
 ]
