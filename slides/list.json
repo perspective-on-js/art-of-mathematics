@@ -5,7 +5,10 @@
         }
     },
     {
-        "filename": "index.html"
+        "filename": "index.html",
+        "attr": {
+            "data-state": "art-of-mathematics"
+        }
     },
     {
         "filename": "rubin-vase.md",
