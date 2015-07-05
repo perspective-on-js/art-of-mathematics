@@ -15,11 +15,6 @@
     },
     {
         "attr": {
-            "data-background": "image/f1-race.jpg"
-        }
-    },
-    {
-        "attr": {
             "data-background": "image/swim-contest.jpg"
         }
     },
