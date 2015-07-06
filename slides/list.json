@@ -10,9 +10,6 @@
             "data-state": "art-of-mathematics"
         }
     },
-    {
-        "filename": "rubin-vase.md"
-    },
     "purity.md",
     "fizzbuzz-problem.md",
     "fizzbuzz-solution.html",
@@ -26,5 +23,6 @@
         "attr": {
             "data-background": "image/swim-contest.jpg"
         }
-    }
+    },
+    "rubin-vase.md"
 ]
