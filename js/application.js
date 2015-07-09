@@ -24,6 +24,12 @@
                 };
                 return handler;
             })());
+        },
+        'self-similar-square': function(){
+            var canvas = document.getElementById('self-similar-square');
+            var context = canvas.getContext('2d');
+            context.fillStyle = 'gold';
+            context.fillRect(0, 0, canvas.width, canvas.height);
         }
     };
     var revealListener = (function(){

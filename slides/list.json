@@ -26,5 +26,11 @@
     },
     "rubin-vase.md",
     "fractals.md",
-    "self-similar.md"
+    "self-similar.md",
+    {
+        "filename": "self-similar-square.html",
+        "attr": {
+            "data-state": "self-similar-square"
+        }
+    }
 ]
