@@ -26,10 +26,35 @@
             })());
         },
         'self-similar-square': function(){
-            var canvas = document.getElementById('self-similar-square');
-            var context = canvas.getContext('2d');
-            context.fillStyle = 'gold';
-            context.fillRect(0, 0, canvas.width, canvas.height);
+            var divide = (function(){
+                var canvas = document.getElementById('self-similar-square');
+                var context = canvas.getContext('2d');
+                context.fillStyle = 'gold';
+                context.strokeStyle = 'black';
+                context.lineWidth = 5;
+                return function divide(n) {
+                    context.fillRect(0, 0, canvas.width, canvas.height);
+                    var size = canvas.width/n;
+                    for (var i = 0; i < n; i++){
+                        for (var j = 0; j < n; j++){
+                            context.strokeRect(i * size, j * size, size, size);
+                        }
+                    }
+                };
+            })();
+            document.body.addEventListener('keydown', (function(){
+                var n = 1;
+                var handler = function(event){
+                    if (event.keyCode === 65) { /* a */
+                        divide(++n);
+                        if (n === 5) {
+                            this.removeEventListener(event.type, handler);
+                        }
+                    }
+                };
+                return handler;
+            })());
+            divide(1);
         }
     };
     var revealListener = (function(){
