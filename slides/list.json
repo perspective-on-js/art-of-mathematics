@@ -32,5 +32,11 @@
         "attr": {
             "data-state": "self-similar-square"
         }
+    },
+    {
+        "filename": "square-chart.html",
+        "attr": {
+            "data-state": "square-chart"
+        }
     }
 ]

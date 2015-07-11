@@ -1,4 +1,4 @@
-/*global document, Reveal*/
+/*global document, Reveal, Chart*/
 ;(function(Reveal){
     'use strict';
 
@@ -55,6 +55,21 @@
                 return handler;
             })());
             divide(1);
+        },
+        'square-chart': function(){
+            var canvas = document.getElementById('square-chart');
+            var context = canvas.getContext('2d');
+            var chart = new Chart(context);
+            var data = {
+                'labels': [1, 2, 3, 4, 5],
+                'datasets': [
+                    {
+                        'label': 'Subsquares',
+                        'data': [1, 4, 9, 16, 25]
+                    }
+                ]
+            };
+            chart.Line(data);
         }
     };
     var revealListener = (function(){
@@ -70,4 +85,4 @@
     for (var type in events) {
         Reveal.addEventListener(type, revealListener);
     }
-})(Reveal);
+})(Reveal, Chart);
