@@ -65,6 +65,11 @@
                 'datasets': [
                     {
                         'label': 'Subsquares',
+                        'fillColor': 'rgba(255,215,0,0.8)',
+                        'strokeColor': 'rgba(255,215,0,1)',
+                        'pointColor': 'rgba(255,215,0,1)',
+                        'pointHighlightFill': 'rgba(255,245,0,1)',
+                        'pointHighlightStroke': 'rgba(255,245,0,1)',
                         'data': [1, 4, 9, 16, 25]
                     }
                 ]
