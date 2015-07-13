@@ -35,7 +35,7 @@
         scaleStartValue: null,
 
         // String - Colour of the scale line
-        scaleLineColor: 'rgba(0,0,0,.1)',
+        scaleLineColor: 'rgba(255,215,0,1)',
 
         // Number - Pixel width of the scale line
         scaleLineWidth: 1,
@@ -62,7 +62,7 @@
         scaleFontStyle: 'normal',
 
         // String - Scale label font colour
-        scaleFontColor: '#666',
+        scaleFontColor: 'rgba(255,215,0,1)',
 
         // Boolean - whether or not the chart should be responsive and resize when the browser does.
         responsive: false,
@@ -80,7 +80,7 @@
         tooltipEvents: ['mousemove', 'touchstart', 'touchmove'],
 
         // String - Tooltip background colour
-        tooltipFillColor: 'rgba(0,0,0,0.8)',
+        tooltipFillColor: 'rgba(125,125,125,0.8)',
 
         // String - Tooltip label font declaration for the scale label
         tooltipFontFamily: '\'Helvetica Neue\', \'Helvetica\', \'Arial\', sans-serif',
