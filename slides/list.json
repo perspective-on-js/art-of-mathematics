@@ -38,5 +38,11 @@
         "attr": {
             "data-state": "square-chart"
         }
+    },
+    {
+        "filename": "square-log-chart.html",
+        "attr": {
+            "data-state": "square-log-chart"
+        }
     }
 ]

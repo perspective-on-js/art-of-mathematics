@@ -207,6 +207,28 @@
                 ]
             };
             chart.Line(data);
+        },
+        'square-log-chart': function(){
+            var canvas = document.getElementById('square-log-chart');
+            var context = canvas.getContext('2d');
+            var chart = new Chart(context);
+            var points = [0, 1, 2, 3, 4].map(function(n){ return Math.pow(2, n); }).reverse();
+            var labels = points.map(function(n){ return 'log(1/' + n + ')'; });
+            var data = {
+                'labels': labels,
+                'datasets': [
+                    {
+                        'label': 'log-log',
+                        'fillColor': 'rgba(255,215,0,0.8)',
+                        'strokeColor': 'rgba(255,215,0,1)',
+                        'pointColor': 'rgba(255,215,0,1)',
+                        'pointHighlightFill': 'rgba(255,245,0,1)',
+                        'pointHighlightStroke': 'rgba(255,245,0,1)',
+                        'data': points.map(function(n){ return Math.log(Math.pow(n, 2)); })
+                    }
+                ]
+            };
+            chart.Line(data);
         }
     };
     var revealListener = (function(){
