@@ -192,8 +192,9 @@
             var canvas = document.getElementById('square-chart');
             var context = canvas.getContext('2d');
             var chart = new Chart(context);
+            var points = [0, 1, 2, 3, 4];
             var data = {
-                'labels': [1, 2, 3, 4, 5],
+                'labels': points,
                 'datasets': [
                     {
                         'label': 'Subsquares',
@@ -202,7 +203,7 @@
                         'pointColor': 'rgba(255,215,0,1)',
                         'pointHighlightFill': 'rgba(255,245,0,1)',
                         'pointHighlightStroke': 'rgba(255,245,0,1)',
-                        'data': [1, 4, 9, 16, 25]
+                        'data': points.map(function(n){ return Math.pow(4,n); })
                     }
                 ]
             };
