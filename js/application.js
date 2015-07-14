@@ -178,8 +178,8 @@
                 var n = 1;
                 var handler = function(event){
                     if (event.keyCode === 65) { /* a */
-                        divide(++n);
-                        if (n === 5) {
+                        divide(Math.pow(2,++n));
+                        if (n === 4) {
                             this.removeEventListener(event.type, handler);
                         }
                     }
