@@ -175,11 +175,11 @@
                 };
             })();
             document.body.addEventListener('keydown', (function(){
-                var n = 1;
+                var n = 0;
                 var handler = function(event){
                     if (event.keyCode === 65) { /* a */
-                        divide(Math.pow(2,++n));
-                        if (n === 4) {
+                        divide(Math.pow(3,++n));
+                        if (n === 3) {
                             this.removeEventListener(event.type, handler);
                         }
                     }
@@ -203,7 +203,7 @@
                         'pointColor': 'rgba(255,215,0,1)',
                         'pointHighlightFill': 'rgba(255,245,0,1)',
                         'pointHighlightStroke': 'rgba(255,245,0,1)',
-                        'data': points.map(function(n){ return Math.pow(4,n); })
+                        'data': points.map(function(n){ return Math.pow(9,n); })
                     }
                 ]
             };
@@ -213,7 +213,7 @@
             var canvas = document.getElementById('square-log-chart');
             var context = canvas.getContext('2d');
             var chart = new Chart(context);
-            var points = [0, 1, 2, 3, 4].map(function(n){ return Math.pow(2, n); }).reverse();
+            var points = [0, 1, 2, 3, 4].map(function(n){ return Math.pow(3, n); }).reverse();
             var labels = points.map(function(n){ return 'log(1/' + n + ')'; });
             var data = {
                 'labels': labels,
