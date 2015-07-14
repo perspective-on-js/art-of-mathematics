@@ -5,12 +5,12 @@
     color: gold;
 }
 
+.golden.text{
+    color: gold;
+}
+
 h1.title.text { font-size: 575%; }
 h2.title.text { font-size: 400%; }
-
-.reveal blockquote .title.text {
-    font-size: 150%;
-}
 
 .presentation.facade {
     background: black;
@@ -26,6 +26,10 @@ h2.title.text { font-size: 400%; }
     box-shadow: none;
     font-size: 150%;
     width: 90%;
+}
+
+.reveal blockquote .title.text {
+    font-size: 150%;
 }
 
 .wave {
