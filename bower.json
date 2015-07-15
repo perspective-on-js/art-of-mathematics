@@ -4,6 +4,7 @@
   "dependencies": {
     "reveal.js": "~2.6.1",
     "reveal-highlight-themes": "~8.3.0",
-    "Chart.js": "~1.0.2"
+    "Chart.js": "~1.0.2",
+    "MathJax": "~2.5.1"
   }
 }
