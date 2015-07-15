@@ -45,5 +45,11 @@
             "data-state": "square-log-chart"
         }
     },
-    "dimension-of-square.md"
+    "dimension-of-square.md",
+    {
+        "filename": "monger-sponge.html",
+        "attr": {
+            "data-state": "monger-sponge"
+        }
+    }
 ]

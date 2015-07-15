@@ -1,5 +1,5 @@
-/*global document, Reveal, Chart*/
-;(function(Reveal, Chart){
+/*global document, Reveal, Chart, monger*/
+;(function(Reveal, Chart, monger){
     'use strict';
 
     Chart.defaults.global = {
@@ -230,6 +230,22 @@
                 ]
             };
             chart.Line(data);
+        },
+        'monger-sponge': function(){
+            var canvas = document.getElementById('monger-sponge');
+            var sponge = new monger.Sponge(canvas);
+            document.body.addEventListener('keydown', (function(){
+                var n = 0;
+                var handler = function(event){
+                    if (event.keyCode === 65) { /* a */
+                        sponge.setLevel(++n);
+                        if (n === 5) {
+                            this.removeEventListener(event.type, handler);
+                        }
+                    }
+                };
+                return handler;
+            })());
         }
     };
     var revealListener = (function(){
@@ -245,4 +261,4 @@
     for (var type in events) {
         Reveal.addEventListener(type, revealListener);
     }
-})(Reveal, Chart);
+})(Reveal, Chart, monger);
