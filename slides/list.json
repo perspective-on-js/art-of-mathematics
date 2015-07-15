@@ -26,7 +26,6 @@
     },
     "rubin-vase.md",
     {
-        "filename": "fractals.md",
         "attr": {
             "data-background": "image/mandelbrot-detail.jpg"
         }
