@@ -1,8 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Tangerine:700);
 
-.title.text {
+.grand.text {
+    font-size: 450%;
+}
+
+.beautiful.text {
     font-family: 'Tangerine', cursive;
-    color: gold;
 }
 
 .golden.text{
@@ -26,10 +29,6 @@ h2.title.text { font-size: 400%; }
     box-shadow: none;
     font-size: 150%;
     width: 90%;
-}
-
-.reveal blockquote .title.text {
-    font-size: 150%;
 }
 
 .wave {
