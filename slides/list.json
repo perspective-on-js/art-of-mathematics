@@ -25,7 +25,12 @@
         }
     },
     "rubin-vase.md",
-    "fractals.md",
+    {
+        "filename": "fractals.md",
+        "attr": {
+            "data-background": "image/mandelbrot-detail.jpg"
+        }
+    },
     "self-similar.md",
     {
         "filename": "self-similar-square.html",
