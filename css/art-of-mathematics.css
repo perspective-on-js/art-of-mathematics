@@ -12,6 +12,10 @@
     color: gold;
 }
 
+.smaller.text {
+    font-size: 75%;
+}
+
 h1.title.text { font-size: 575%; }
 h2.title.text { font-size: 400%; }
 

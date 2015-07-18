@@ -62,5 +62,22 @@
             "data-state": "monger-sponge"
         }
     },
-    "monger-sponge-dimension.md"
+    "monger-sponge-dimension.md",
+    {
+        "attr": {
+            "data-background": "image/Benoit_Mandelbrot.jpg"
+        }
+    },
+    {
+        "filename": "benoit-b-mandelbrot.md",
+        "attr": {
+            "data-background": "image/Benoit_Mandelbrot.jpg"
+        }
+    },
+    {
+        "filename": "benoit-b-mandelbrot-recursive.html",
+        "attr": {
+            "data-background": "image/Benoit_Mandelbrot.jpg"
+        }
+    }
 ]
