@@ -30,6 +30,7 @@
         }
     },
     "rubin-vase.md",
+    "eulers-identity.md",
     {
         "attr": {
             "data-background": "image/mandelbrot-detail.jpg"
