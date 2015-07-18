@@ -79,5 +79,11 @@
         "attr": {
             "data-background": "image/Benoit_Mandelbrot.jpg"
         }
+    },
+    {
+        "filename": "how-long-is-a-coastline.html",
+        "attr": {
+            "data-background": "image/Benoit_Mandelbrot.jpg"
+        }
     }
 ]
