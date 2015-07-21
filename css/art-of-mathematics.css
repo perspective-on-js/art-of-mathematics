@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Tangerine:700);
+
+.grand.text {
+    font-size: 450%;
+}
+
+.beautiful.text {
+    font-family: 'Tangerine', cursive;
+}
+
+.golden.text{
+    color: gold;
+}
+
+.smaller.text {
+    font-size: 75%;
+}
+
+h1.title.text { font-size: 575%; }
+h2.title.text { font-size: 400%; }
+
+.presentation.facade {
+    background: black;
+    background-color: black;
+}
+
+.frameless.illustration {
+    border: none;
+}
+
+.reveal blockquote {
+    background: none;
+    box-shadow: none;
+    font-size: 150%;
+    width: 90%;
+}
+
+.wave {
+    animation-duration: 300ms;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in-out;
+    animation-name: wave;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
