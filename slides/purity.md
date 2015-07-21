@@ -1,0 +1,1 @@
+![Purity](image/purity.png "On the other hand, physicists like to say physics is to math as sex is to masturbation.")

@@ -1,0 +1,77 @@
+[
+    {
+        "attr": {
+            "data-background": "image/first-abstract-watercolor.jpg"
+        }
+    },
+    {
+        "filename": "art-of-mathematics.html",
+        "attr": {
+            "data-state": "art-of-mathematics"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "image/god-the-geometer.jpg"
+        }
+    },
+    "purity.md",
+    "fizzbuzz-problem.md",
+    "fizzbuzz-solution.html",
+    {
+        "attr": {
+            "data-background": "image/swim-contest.jpg"
+        }
+    },
+    {
+        "filename": "study-mathemathics.md",
+        "attr": {
+            "data-background": "image/swim-contest.jpg"
+        }
+    },
+    "rubin-vase.md",
+    "eulers-identity.md",
+    {
+        "attr": {
+            "data-background": "image/mandelbrot-detail.jpg"
+        }
+    },
+    "self-similar.md",
+    {
+        "filename": "self-similar-square.html",
+        "attr": {
+            "data-state": "self-similar-square"
+        }
+    },
+    {
+        "filename": "square-chart.html",
+        "attr": {
+            "data-state": "square-chart"
+        }
+    },
+    {
+        "filename": "square-log-chart.html",
+        "attr": {
+            "data-state": "square-log-chart"
+        }
+    },
+    "dimension-of-square.md",
+    {
+        "filename": "monger-sponge.html",
+        "attr": {
+            "data-state": "monger-sponge"
+        }
+    },
+    "monger-sponge-dimension.md",
+    {
+        "attr": {
+            "data-background": "image/Benoit_Mandelbrot.jpg"
+        }
+    },
+    {
+        "filename": "how-long-is-a-coastline.html",
+        "attr": {
+            "data-background": "image/Benoit_Mandelbrot.jpg"
+        }
+    }
+]
