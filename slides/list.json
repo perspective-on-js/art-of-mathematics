@@ -76,6 +76,11 @@
         }
     },
     {
+        "attr": {
+            "data-background": "image/ocean.jpg"
+        }
+    },
+    {
         "filename": "recursion.html",
         "attr": {
             "data-state": "recursion"
