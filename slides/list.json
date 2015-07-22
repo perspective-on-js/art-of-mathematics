@@ -92,6 +92,12 @@
         }
     },
     {
+        "filename": "marcus-du-sautoy.html",
+        "attr": {
+            "data-background": "image/number-5.jpg"
+        }
+    },
+    {
         "filename": "recursion.html",
         "attr": {
             "data-state": "recursion"
