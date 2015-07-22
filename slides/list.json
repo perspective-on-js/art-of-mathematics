@@ -5,6 +5,12 @@
         }
     },
     {
+        "filename": "magic-trick.md",
+        "attr": {
+            "data-background": "image/first-abstract-watercolor.jpg"
+        }
+    },
+    {
         "filename": "art-of-mathematics.html",
         "attr": {
             "data-state": "art-of-mathematics"
