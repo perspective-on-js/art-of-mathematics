@@ -92,6 +92,12 @@
         }
     },
     {
+        "filename": "jackson-pollock.md",
+        "attr": {
+            "data-background": "image/number-5.jpg"
+        }
+    },
+    {
         "filename": "marcus-du-sautoy.html",
         "attr": {
             "data-background": "image/number-5.jpg"
@@ -102,5 +108,4 @@
         "attr": {
             "data-state": "recursion"
         }
-    }
-]
+    }]
