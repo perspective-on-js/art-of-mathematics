@@ -74,5 +74,10 @@
             "data-background": "image/Benoit_Mandelbrot.jpg"
         }
     },
-    "recursion.html"
+    {
+        "filename": "recursion.html",
+        "attr": {
+            "data-state": "recursion"
+        }
+    }
 ]

@@ -246,6 +246,11 @@
                 };
                 return handler;
             })());
+        },
+        'recursion': function(){
+            var url = 'http://perspective-on-js.github.io/art-of-mathematics';
+            var frame = document.getElementById('recursion');
+            frame.setAttribute('src', url);
         }
     };
     var revealListener = (function(){
