@@ -5,11 +5,18 @@
         }
     },
     {
+        "filename": "magic-trick.md",
+        "attr": {
+            "data-background": "image/first-abstract-watercolor.jpg"
+        }
+    },
+    {
         "filename": "art-of-mathematics.html",
         "attr": {
             "data-state": "art-of-mathematics"
         }
     },
+    "grumpy-cat.md",
     {
         "attr": {
             "data-background": "image/god-the-geometer.jpg"
@@ -74,5 +81,31 @@
             "data-background": "image/Benoit_Mandelbrot.jpg"
         }
     },
-    "recursion.html"
-]
+    {
+        "attr": {
+            "data-background": "image/ocean.jpg"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "image/number-5.jpg"
+        }
+    },
+    {
+        "filename": "jackson-pollock.md",
+        "attr": {
+            "data-background": "image/number-5.jpg"
+        }
+    },
+    {
+        "filename": "marcus-du-sautoy.html",
+        "attr": {
+            "data-background": "image/number-5.jpg"
+        }
+    },
+    {
+        "filename": "recursion.html",
+        "attr": {
+            "data-state": "recursion"
+        }
+    }]
